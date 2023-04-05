@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --blueColor: #0078d7;
+  --mainWhite: #fff;
+  --softwhite: #eee;
+  --grey: #ddd;
+  --black: #000;
+  --clearBlack: #999;
+  --linkColor: #212529;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.4;
+  color: #333;
+  background: var(--softwhite);
+  font-weight: 400;
+}
+
+/* -------------------------------------------NAVBAR */
+
+nav {
+  height: 58px;
+  background: var(--mainWhite);
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  gap: 2rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo h2 {
+  color: var(--blueColor);
+}
+
+nav > ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+  color: var(--linkColor);
+}
+
+.active {
+  color: #8a4baf;
+}
+
+nav > ul > li {
+  cursor: pointer;
+}
+
+.nav-link {
+  color: var(--clearBlack);
+  text-decoration: none;
+  font-size: inherit;
+}
+
+main {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  width: 100%;
+}
+
+ 
